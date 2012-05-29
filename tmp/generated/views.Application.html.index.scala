@@ -14,7 +14,8 @@
 format.raw/*1.16*/("""
 
 """)+_display_(/*3.2*/main(title)/*3.13*/ {format.raw/*3.15*/("""
-　　	<audio id="audio_gamestart"><source src="http://kattakum.heteml.jp/html5/get.mp3"></audio>
+    <!-- ------------------------->
+    <audio id="audio_gamestart"><source src="http://kattakum.heteml.jp/html5/get.mp3"></audio>
     <audio id="audio_loss"><source src="http://kattakum.heteml.jp/html5/kira.mp3"></audio>
     <audio id="audio_win"><source src="http://kattakum.heteml.jp/html5/kira.mp3"></audio>
     <audio id="audio_playstart"><source src="http://kattakum.heteml.jp/html5/get.mp3"></audio>
@@ -47,10 +48,14 @@ format.raw/*1.16*/("""
 　  <br>
 <br><br><br><br>
 <font size="+1"><a href="http://kattakum.heteml.jp/home/">kattakum homepage</a></font>
+<font size="+1"><a href="http://scalatennis.herokuapp.com/chat/">chattakum</a></font>
     </span>
     </div>
     </div>
-""")})}
+
+""")})+format.raw/*43.2*/("""
+
+""")}
                             } catch {
                                 case e:TemplateExecutionError => throw e
                                 case e => throw Reporter.toHumanException(e)
@@ -62,11 +67,11 @@ format.raw/*1.16*/("""
                 
                 /*
                     -- GENERATED --
-                    DATE: Mon May 28 19:40:31 PDT 2012
+                    DATE: Mon May 28 22:42:39 PDT 2012
                     SOURCE: /app/views/Application/index.scala.html
-                    HASH: 25e092aeb7d321ecbed9189ba26caee03b959196
-                    MATRIX: 329->1|450->15|478->18|497->29|517->31
-                    LINES: 10->1|14->1|16->3|16->3|16->3
+                    HASH: e9cd4903b66b6d707f90fc9308c3fc40b6923427
+                    MATRIX: 329->1|450->15|478->18|497->29|517->31|2106->1592
+                    LINES: 10->1|14->1|16->3|16->3|16->3|56->43
                     -- GENERATED --
                 */
             
