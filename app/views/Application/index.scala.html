@@ -1,0 +1,40 @@
+@(title:String)
+
+@main(title) {
+　　	<audio id="audio_gamestart"><source src="@asset("public/audio/get.mp3")"></audio>
+    <audio id="audio_loss"><source src="@asset("public/audio/kira.mp3")"></audio>
+    <audio id="audio_win"><source src="@asset("public/audio/kira.mp3")"></audio>
+    <audio id="audio_playstart"><source src="@asset("public/audio/get.mp3")"></audio>
+    <audio id="audio_stroke"><source src="@asset("public/audio/pi.mp3")"></audio>
+    <audio id="audio_wallhit"><source src="@asset("public/audio/pi.mp3")"></audio>
+    <div id = "playarea">
+    <span id="playscreen">
+    <canvas id="gamefield" width=800 height="600"></canvas>
+    </span>
+    <div align="center">
+    <span id="helptext">
+    	<br><br><br><br>
+    How to play<br>
+　　<br>
+    <b>[key]</b><br>
+    <table>
+    <tr><td width="40">Enter</td><td>Game start</td></tr>
+    <tr><td>[S]</td><td>Sound on,off</td></tr>
+    <tr><td>[G]</td><td>The number of player</td></tr>
+    <tr><td>[←][A]</td><td>move left</td></tr>
+    <tr><td>[→][D]</td><td>move right</td></tr>
+    <tr><td>[↑][W]</td><td>move up</td></tr>
+    <tr><td>[↓][X]</td><td>move down</td></tr>
+    <tr><td>[Esc]</td><td>Exit</td></tr>
+    </table>
+    <br>
+    <b>[Rule]</b><br>
+    ・11pt winner<br>
+    ・2pt change serve<br>
+　  <br>
+<br><br><br><br>
+<font size="+1"><a href="http://kattakum.heteml.jp/home/">kattakum homepage</a></font>
+    </span>
+    </div>
+    </div>
+}

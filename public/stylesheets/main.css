@@ -1,0 +1,51 @@
+body {
+          background-color: #FFFFFF;
+        }
+	A:link {
+          color: #66CC99;
+        }
+	A:visited {
+	  	  color: #3399FF;
+	}
+        #playarea {
+          position:absolute;
+          top:20px;
+        }
+        #playscreen {
+          position:absolute;
+          top: 20px;
+          left: 0px;
+          width: 800px;
+          height: 600px;
+          border-top-width: 6px;
+          border-right-width: 6px;
+          border-bottom-width: 6px;
+          border-left-width: 6px;
+          border-top-style: groove;
+          border-right-style: groove;
+          border-bottom-style: groove;
+          border-left-style: groove;
+          z-index: 1;
+        }
+        #helpimg {
+          position:absolute;
+          top: 80px;
+          left:680px;
+        }
+        #helptext {
+          position:absolute;
+          top: 20px;
+          left:805px;
+          width: 200px;
+          height: 600px;
+          background-color: #FAFAD2;
+          border-top-width: 6px;
+          border-right-width: 6px;
+          border-bottom-width: 6px;
+          border-left-width: 6px;
+          border-top-style: groove;
+          border-right-style: groove;
+          border-bottom-style: groove;
+          border-left-style: groove;
+          font-size:10px;
+        }
